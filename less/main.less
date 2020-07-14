@@ -1,0 +1,299 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/Avenir-Heavy.woff2') format('woff2'),
+        url('fonts/Avenir-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/Avenir-Roman.woff2') format('woff2'),
+        url('fonts/Avenir-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/Avenir-MediumOblique.woff2') format('woff2'),
+        url('fonts/Avenir-MediumOblique.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/Avenir-LightOblique.woff2') format('woff2'),
+        url('fonts/Avenir-LightOblique.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir Black Oblique';
+    src: url('fonts/Avenir-BlackOblique.woff2') format('woff2'),
+        url('fonts/Avenir-BlackOblique.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/Avenir-HeavyOblique.woff2') format('woff2'),
+        url('fonts/Avenir-HeavyOblique.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/Avenir-Light.woff2') format('woff2'),
+        url('fonts/Avenir-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir Book';
+    src: url('fonts/Avenir-Book.woff2') format('woff2'),
+        url('fonts/Avenir-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/Avenir-Oblique.woff2') format('woff2'),
+        url('fonts/Avenir-Oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/Avenir-Black.woff2') format('woff2'),
+        url('fonts/Avenir-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir Book';
+    src: url('fonts/Avenir-BookOblique.woff2') format('woff2'),
+        url('fonts/Avenir-BookOblique.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/Avenir-Medium.woff2') format('woff2'),
+        url('fonts/Avenir-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body.page-template-inicio, body.page-template-organizamos, body.page-template-nosotros{
+.row {
+    
+    display: inherit;
+}
+}
+/* Ajustes generales de la plantilla */
+ .woodmart-logo img {  
+ 
+        transform: scale(1.4) translateY(-2px);
+}
+.whb-row.whb-general-header.whb-not-sticky-row.whb-without-bg.whb-without-border.whb-color-dark.whb-flex-equal-sides {
+    padding: 20px;
+}
+@import "vars";
+.main-page-wrapper {
+  
+    padding-top: 0px;
+}
+
+/*Ajuste de FullWidth*/
+
+.page-template {
+    .container {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+.whb-color-dark .navigation-style-underline .item-level-0>a {
+   font-family: 'Avenir';
+     color: @negro;
+    font-size: 16px;
+       
+}
+
+/*Esquema por defecto para las secciones*/
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    .col {
+        width: 50%;
+    }
+    .col2 {
+            width: 33.33%;
+    }
+    .col3 {
+            width: 25%;
+    }
+}
+
+/*Ajuste general*/
+ol {
+    list-style: decimal;
+}
+
+.template-section {
+   
+        padding: 50px 0;
+    
+
+    .contenedor {
+        max-width: 1100px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .col {
+        min-height: 500px;
+        padding: 60px;
+    }
+    .col2 {
+        min-height: 500px;
+        padding: 60px;
+    }
+    .col3 {
+        min-height: 500px;
+        padding: 60px;
+    }
+    
+    h1 {
+        color: @azulcielo;
+         font-family: 'Avenir';
+        font-weight: bold;
+        text-align: center;
+            font-size: 68px;
+        span{
+            color: @azul;
+            display: block;
+        }
+       
+       
+        
+        
+    }
+
+    h2 {
+         font-family: 'Avenir';
+        color: @azul;
+       
+        font-size: 48px;
+        font-weight: bold;
+        line-height: 1.3em;
+        text-align: center;
+        &.blanco{
+            color: white;
+        }
+        &.cielo{
+             color: @azulcielo;
+        }
+
+    }
+    h3 {
+         font-size: 38px;
+         font-family: 'Avenir';
+         color: @azul;
+      
+    }
+    p,
+    ul,a {
+        color: @negro;
+        font-size: 18px;
+       font-family: 'Avenir';
+        font-weight: normal;
+        b{
+            font-weight: bold;
+        }
+       
+       
+        
+    }
+   
+    ul {
+        li {
+            color: @negro;
+           font-family: 'Avenir';
+            position: relative;
+            margin-left: 15px;
+            margin-bottom: 10px;
+            
+            &::before {
+                    top: -4px;
+                content: "●";
+                color: @azul;
+                font-size: 20px;
+                padding-right: 20px;
+                position: absolute;
+                left: -15px;
+                margin-left: -9px;
+            }
+        }
+      
+
+        
+    }
+
+
+
+  
+
+    .btn {
+        
+        transition: all 0.3s ease-in-out;
+         font-family: 'Avenir';
+         background: url(../img/boton.png) no-repeat center;
+        background-size: cover;
+          
+            font-size: 1.8em;
+ //        -webkit-border-radius: 10px;
+//  -moz-border-radius: 10px;
+//  border-radius: 20px;
+            
+            color: @azul;
+        &.blanco{
+             background: url(../img/boton2.png) no-repeat center;
+            color: white;
+        }
+            &:hover {
+                 transform: translateY(-5px);
+               
+              //  color: @azulcielo;
+               
+            }
+        
+    }
+    .center {
+        text-align: center;
+    }
+}
