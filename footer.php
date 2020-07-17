@@ -25,11 +25,11 @@
 	<?php endif ?>
 	
 	<!-- FOOTER -->
-	<footer class="template-section">
+	<footer >
      <section id="esbrillante" class="template-section">
- <div class="center">
- <p>Copyright All Rights Reserved © 2020 | Desarrollo Web por <a href="http://esbrillante.mx/">esbrillante.mx</a></p>
- </div>
+ <div class="contenedor">
+ <p class="blanco">Sitio web diseñado por <a href="http://esbrillante.mx/">EsBrillante</a></p>
+</div>
 </section>
 </footer>
 <?php endif ?>

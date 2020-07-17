@@ -2,6 +2,26 @@
     /* Template Name: Nosotros */ 
     get_header();
 ?>
+  
+  <section id="nosotros" class="template-section">
+  <div class="contenedor">
+      <div class="grid">
+          <div class="col"><div class="ban">
+   <h2 >NOSOTROS</h2>
+  <p class="blanco">Somos una empresa <b class="blanco">100% mexicana</b> con más de 40 años en el mercado, con el objetivo de brindar a nuestros clientes la seguridad y calidad de nuestra integración, intervención de proyectos de construcción, mantenimiento y reparación, instalación de piscinas nuevas, renovaciones de piscinas, construcción de piscinas y una amplia gama de programas de mantenimiento, así como suministros.</p>
+   <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/onda.png" alt="pool">
+    
+    </div></div>
+          <div class="col"></div>
+      </div>
+      <div class="grid">
+          <div class="col"></div>
+          <div class="col colespe"><h3 class="blanco">Hemos construido ALBERCAS y espacios ACUÁTICOS<span>en las casas de los condominios
+más lujosos y los hoteles más
+exclusivos de México.</span></h3></div>
+      </div>
+  </div>
+</section>
    
 <section id="conocenos2" class="template-section">
 

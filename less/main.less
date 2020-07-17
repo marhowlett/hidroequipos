@@ -142,6 +142,15 @@ body.page-template-inicio, body.page-template-organizamos, body.page-template-no
     font-size: 16px;
        
 }
+@media (min-width: 1025px){
+
+    .whb-main-header {
+    max-width: 1300px!important;
+    /* max-width: 1300px!important; */
+    margin: auto;
+}
+}
+
 
 /*Esquema por defecto para las secciones*/
 
@@ -167,10 +176,25 @@ ol {
 .template-section {
    
         padding: 50px 0;
-    
+        .ban{
+            display: block;
+    margin: auto;
+    margin-top: 102px;
+    text-align: center;
+        p, img{
+            margin-top: -21px;
+             span{
+            display: block;
+        }
+        }
+        p{
+            font-family: 'Avenir Book';
+        }
+        
+    }
 
     .contenedor {
-        max-width: 1100px;
+            max-width: 1300px;
         width: 100%;
         margin: 0 auto;
     }
@@ -178,21 +202,27 @@ ol {
     .col {
         min-height: 500px;
         padding: 60px;
+        display: block;
+        margin: auto;
     }
     .col2 {
         min-height: 500px;
         padding: 60px;
+         display: block;
+        margin: auto;
     }
     .col3 {
         min-height: 500px;
         padding: 60px;
+         display: block;
+        margin: auto;
     }
     
     h1 {
         color: @azulcielo;
          font-family: 'Avenir';
         font-weight: bold;
-        text-align: center;
+       
             font-size: 68px;
         span{
             color: @azul;
@@ -207,7 +237,7 @@ ol {
     h2 {
          font-family: 'Avenir';
         color: @azul;
-       
+       text-transform: uppercase;
         font-size: 48px;
         font-weight: bold;
         line-height: 1.3em;
@@ -224,7 +254,12 @@ ol {
          font-size: 38px;
          font-family: 'Avenir';
          color: @azul;
-      
+        span{
+            display: block;
+        }
+        &.blanco{
+            color: white;
+        }
     }
     p,
     ul,a {
@@ -235,7 +270,9 @@ ol {
         b{
             font-weight: bold;
         }
-       
+        &.blanco{
+            color: white;
+        }
        
         
     }
@@ -267,28 +304,41 @@ ol {
 
 
   
-
+   .fondobtn{
+         background: url(../img/boton.png) no-repeat center;
+       &.blanco{
+           background: url(../img/boton2.png) no-repeat center;
+       }
+   
+    text-align: center;
+   
+   
+        display: block;
+    margin: auto;
+    }
     .btn {
         
         transition: all 0.3s ease-in-out;
          font-family: 'Avenir';
-         background: url(../img/boton.png) no-repeat center;
-        background-size: cover;
-          
-            font-size: 1.8em;
+        
+        background-color: transparent;
+          font-weight: bold;
+            font-size: 17px;
  //        -webkit-border-radius: 10px;
 //  -moz-border-radius: 10px;
 //  border-radius: 20px;
             
             color: @azul;
         &.blanco{
-             background: url(../img/boton2.png) no-repeat center;
+             
             color: white;
         }
             &:hover {
                  transform: translateY(-5px);
+                
+                 background-color: transparent;
                
-              //  color: @azulcielo;
+           
                
             }
         
@@ -296,4 +346,244 @@ ol {
     .center {
         text-align: center;
     }
+}
+
+#slider{
+        background: url(../img/slider1.jpg) no-repeat right bottom;
+    
+     @media screen and (max-width: 1570px) and (min-width: 750px){
+          background: url(../img/slider1res.jpg) no-repeat right bottom;
+    background-size: cover;
+    height: 813px;
+         
+    }
+    
+    background-size: cover;
+    height: 1000px;
+    .ban2{
+                 max-width: 575px;
+    position: relative;
+    top: 300px;
+        h1{
+            font-size: 48px;
+        }
+    }
+}
+#servicios{
+    .col2, .col{
+            min-height: inherit;
+        p{
+            margin-top: 20px;
+        }
+    }
+    .especial{
+        max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    }
+    img{
+        display: block;
+        margin: auto;
+    }
+    p{
+        text-align: center;
+    }
+   
+    h3{
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+#galeria{
+     background: url(../img/banner1.png) no-repeat right center;
+    background-size: cover;
+     @media screen and (max-width: 1570px) and (min-width: 750px){
+    background: url(../img/banner1res.png) no-repeat center;
+         background-size: auto;
+         height: 1349px;
+    }
+    background-size: cover;
+   height: 1758px;
+    z-index: 20;
+    margin-top: -102px;
+
+        .contenedor{
+            position: relative;
+    top: 260px;
+        }
+    
+}
+#elegir{
+    margin-top: -336px;
+   
+     background: url(../img/banner2.png) no-repeat left center;
+    
+    @media screen and (max-width: 1570px) and (min-width: 750px){
+            margin-top: -300px;
+    background: url(../img/banner2res.png) no-repeat left bottom;
+         background-size: auto;
+         
+    }
+    .col2, .col{
+            min-height: inherit;
+        p{
+            margin-top: 20px;
+        }
+    }
+    .grid{
+        margin-top: 80px;
+    }
+    img{
+        display: block;
+        margin: auto;
+    }
+    p{
+        text-align: center;
+    }
+   
+      
+    
+}
+#blog{
+        padding-top: initial;
+    margin-top: -115px;
+}
+#contacto{
+    padding: inherit;
+        background-size: contain;
+    height: 1000px;
+     background: url(../img/banner3.png) no-repeat left bottom;
+    @media screen and (max-width: 1570px) and (min-width: 750px){
+          background: url(../img/banner3res.png) no-repeat left center;
+            height: auto;
+    background-size: contain;
+    }
+
+    p{
+        &.especial{
+            text-align: center;
+        }
+        img{
+            margin-right: 10px;
+               
+            
+        }
+        &.imagenes{
+            position: relative;
+    top: 50px;
+        }
+    }
+    
+     .caldera-grid .form-control {
+    
+    background-color: #f5efef;
+    border: 1px solid #aaaaaa;
+        color: #aaaaaa;
+      font-size: 18px;
+    font-family: 'Avenir';
+         font-style: italic;
+}
+     .caldera-grid .form-control::placeholder, .caldera-grid .form-control, label  { 
+         color: #aaaaaa;
+        font-size: 18px;
+  font-family: 'Avenir';
+        font-style: italic;
+    }
+    
+    .btn {
+        transition: all 0.3s ease-in-out;
+         font-family: 'Avenir';
+        
+        background-color: transparent;
+          font-weight: normal;
+            font-size: 17px;
+ //        -webkit-border-radius: 10px;
+//  -moz-border-radius: 10px;
+//  border-radius: 20px;
+                border: none;
+        position: relative;
+    right: 34px;
+            color: @negro;
+            &:hover {
+                 transform: translateY(-5px);
+                
+               
+            }
+        
+    }
+    img.logo{
+        display: block;
+    margin: auto;
+    }
+    h2{
+           position: relative;
+    top: 10px;
+    }
+    #fld_3020149_1-wrap {
+        background: url(../img/boton.png) no-repeat right;
+    text-align: right;
+    display: block;
+    margin: auto;
+}
+    .colespe1{
+        width: 30%;
+    }
+    .colespe2{
+        width: 70%;
+    }
+    
+    p.redes{
+       position: relative;
+    top: -35px;
+    max-width: max-content;
+    }
+    span{
+        display: block;
+        position: relative;
+    left: 40px;
+    
+        
+}
+    .col.fondo {
+    position: relative;
+    top: -37px;
+            padding: 60px 0px;
+}
+}
+.woodmart-prefooter {
+    
+    display: none;
+}
+
+#esbrillante{
+   background: url(../img/footer.png) no-repeat center;
+    padding: inherit;
+    height: 130px;
+        margin-top: -105px;
+    p{
+        text-align: right;
+            position: relative;
+    top: 55px;
+    }
+    a{
+        font-weight: bold;
+        color: white;
+    }
+}
+
+/***NOSOTROS***/
+
+
+#nosotros{
+     background: url(../img/nosotros.png) no-repeat center;
+    background-size: cover;
+    padding: 50px 0;
+    height: 1000px;
+    p{
+        text-align: justify;
+    }
+    .colespe{
+        padding: inherit;
+    }
+   
 }

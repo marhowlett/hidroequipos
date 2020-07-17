@@ -108,6 +108,13 @@ body.page-template-nosotros .row {
   color: #434343;
   font-size: 16px;
 }
+@media (min-width: 1025px) {
+  .whb-main-header {
+    max-width: 1300px!important;
+    /* max-width: 1300px!important; */
+    margin: auto;
+  }
+}
 /*Esquema por defecto para las secciones*/
 .grid {
   display: flex;
@@ -129,28 +136,50 @@ ol {
 .template-section {
   padding: 50px 0;
 }
+.template-section .ban {
+  display: block;
+  margin: auto;
+  margin-top: 102px;
+  text-align: center;
+}
+.template-section .ban p,
+.template-section .ban img {
+  margin-top: -21px;
+}
+.template-section .ban p span,
+.template-section .ban img span {
+  display: block;
+}
+.template-section .ban p {
+  font-family: 'Avenir Book';
+}
 .template-section .contenedor {
-  max-width: 1100px;
+  max-width: 1300px;
   width: 100%;
   margin: 0 auto;
 }
 .template-section .col {
   min-height: 500px;
   padding: 60px;
+  display: block;
+  margin: auto;
 }
 .template-section .col2 {
   min-height: 500px;
   padding: 60px;
+  display: block;
+  margin: auto;
 }
 .template-section .col3 {
   min-height: 500px;
   padding: 60px;
+  display: block;
+  margin: auto;
 }
 .template-section h1 {
   color: #00abcf;
   font-family: 'Avenir';
   font-weight: bold;
-  text-align: center;
   font-size: 68px;
 }
 .template-section h1 span {
@@ -160,6 +189,7 @@ ol {
 .template-section h2 {
   font-family: 'Avenir';
   color: #006e93;
+  text-transform: uppercase;
   font-size: 48px;
   font-weight: bold;
   line-height: 1.3em;
@@ -176,6 +206,12 @@ ol {
   font-family: 'Avenir';
   color: #006e93;
 }
+.template-section h3 span {
+  display: block;
+}
+.template-section h3.blanco {
+  color: white;
+}
 .template-section p,
 .template-section ul,
 .template-section a {
@@ -188,6 +224,11 @@ ol {
 .template-section ul b,
 .template-section a b {
   font-weight: bold;
+}
+.template-section p.blanco,
+.template-section ul.blanco,
+.template-section a.blanco {
+  color: white;
 }
 .template-section ul li {
   color: #434343;
@@ -206,21 +247,244 @@ ol {
   left: -15px;
   margin-left: -9px;
 }
+.template-section .fondobtn {
+  background: url(../img/boton.png) no-repeat center;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+.template-section .fondobtn.blanco {
+  background: url(../img/boton2.png) no-repeat center;
+}
 .template-section .btn {
   transition: all 0.3s ease-in-out;
   font-family: 'Avenir';
-  background: url(../img/boton.png) no-repeat center;
-  background-size: cover;
-  font-size: 1.8em;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 17px;
   color: #006e93;
 }
 .template-section .btn.blanco {
-  background: url(../img/boton2.png) no-repeat center;
   color: white;
 }
 .template-section .btn:hover {
   transform: translateY(-5px);
+  background-color: transparent;
 }
 .template-section .center {
   text-align: center;
+}
+#slider {
+  background: url(../img/slider1.jpg) no-repeat right bottom;
+  background-size: cover;
+  height: 1000px;
+}
+@media screen and (max-width: 1570px) and (min-width: 750px) {
+  #slider {
+    background: url(../img/slider1res.jpg) no-repeat right bottom;
+    background-size: cover;
+    height: 813px;
+  }
+}
+#slider .ban2 {
+  max-width: 575px;
+  position: relative;
+  top: 300px;
+}
+#slider .ban2 h1 {
+  font-size: 48px;
+}
+#servicios .col2,
+#servicios .col {
+  min-height: inherit;
+}
+#servicios .col2 p,
+#servicios .col p {
+  margin-top: 20px;
+}
+#servicios .especial {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+#servicios img {
+  display: block;
+  margin: auto;
+}
+#servicios p {
+  text-align: center;
+}
+#servicios h3 {
+  text-transform: uppercase;
+  text-align: center;
+}
+#galeria {
+  background: url(../img/banner1.png) no-repeat right center;
+  background-size: cover;
+  height: 1758px;
+  z-index: 20;
+  margin-top: -102px;
+}
+@media screen and (max-width: 1570px) and (min-width: 750px) {
+  #galeria {
+    background: url(../img/banner1res.png) no-repeat center;
+    background-size: auto;
+    height: 1349px;
+  }
+}
+#galeria .contenedor {
+  position: relative;
+  top: 260px;
+}
+#elegir {
+  margin-top: -336px;
+  background: url(../img/banner2.png) no-repeat left center;
+}
+@media screen and (max-width: 1570px) and (min-width: 750px) {
+  #elegir {
+    margin-top: -300px;
+    background: url(../img/banner2res.png) no-repeat left bottom;
+    background-size: auto;
+  }
+}
+#elegir .col2,
+#elegir .col {
+  min-height: inherit;
+}
+#elegir .col2 p,
+#elegir .col p {
+  margin-top: 20px;
+}
+#elegir .grid {
+  margin-top: 80px;
+}
+#elegir img {
+  display: block;
+  margin: auto;
+}
+#elegir p {
+  text-align: center;
+}
+#blog {
+  padding-top: initial;
+  margin-top: -115px;
+}
+#contacto {
+  padding: inherit;
+  background-size: contain;
+  height: 1000px;
+  background: url(../img/banner3.png) no-repeat left bottom;
+}
+@media screen and (max-width: 1570px) and (min-width: 750px) {
+  #contacto {
+    background: url(../img/banner3res.png) no-repeat left center;
+    height: auto;
+    background-size: contain;
+  }
+}
+#contacto p.especial {
+  text-align: center;
+}
+#contacto p img {
+  margin-right: 10px;
+}
+#contacto p.imagenes {
+  position: relative;
+  top: 50px;
+}
+#contacto .caldera-grid .form-control {
+  background-color: #f5efef;
+  border: 1px solid #aaaaaa;
+  color: #aaaaaa;
+  font-size: 18px;
+  font-family: 'Avenir';
+  font-style: italic;
+}
+#contacto .caldera-grid .form-control::placeholder,
+#contacto .caldera-grid .form-control,
+#contacto label {
+  color: #aaaaaa;
+  font-size: 18px;
+  font-family: 'Avenir';
+  font-style: italic;
+}
+#contacto .btn {
+  transition: all 0.3s ease-in-out;
+  font-family: 'Avenir';
+  background-color: transparent;
+  font-weight: normal;
+  font-size: 17px;
+  border: none;
+  position: relative;
+  right: 34px;
+  color: #434343;
+}
+#contacto .btn:hover {
+  transform: translateY(-5px);
+}
+#contacto img.logo {
+  display: block;
+  margin: auto;
+}
+#contacto h2 {
+  position: relative;
+  top: 10px;
+}
+#contacto #fld_3020149_1-wrap {
+  background: url(../img/boton.png) no-repeat right;
+  text-align: right;
+  display: block;
+  margin: auto;
+}
+#contacto .colespe1 {
+  width: 30%;
+}
+#contacto .colespe2 {
+  width: 70%;
+}
+#contacto p.redes {
+  position: relative;
+  top: -35px;
+  max-width: max-content;
+}
+#contacto span {
+  display: block;
+  position: relative;
+  left: 40px;
+}
+#contacto .col.fondo {
+  position: relative;
+  top: -37px;
+  padding: 60px 0px;
+}
+.woodmart-prefooter {
+  display: none;
+}
+#esbrillante {
+  background: url(../img/footer.png) no-repeat center;
+  padding: inherit;
+  height: 130px;
+  margin-top: -105px;
+}
+#esbrillante p {
+  text-align: right;
+  position: relative;
+  top: 55px;
+}
+#esbrillante a {
+  font-weight: bold;
+  color: white;
+}
+/***NOSOTROS***/
+#nosotros {
+  background: url(../img/nosotros.png) no-repeat center;
+  background-size: cover;
+  padding: 50px 0;
+  height: 1000px;
+}
+#nosotros p {
+  text-align: justify;
+}
+#nosotros .colespe {
+  padding: inherit;
 }
