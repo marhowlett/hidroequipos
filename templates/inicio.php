@@ -52,7 +52,9 @@ su alberca o espacio acuático</span></h3>
    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/onda.png" alt="pool">
     
     </div>
+    <div class="conte">
     <?php echo do_shortcode( '[grid_plus name="galeria"]' ); ?>
+    </div>
     <div class="fondobtn blanco">
     <a href="#" class="btn blanco">SABER MÁS</a>
     </div>
@@ -69,7 +71,10 @@ su alberca o espacio acuático</span></h3>
    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/onda.png" alt="pool">
     
     </div>
-   
+    <div class="fotos">
+     <?php echo do_shortcode('[slide-anything id="21"]');?>
+     </div>
+   <!--
    <div class="grid">
        <div class="col2"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Experiencia.png" alt="pool"><p>40 años de experiencia
 en 3 generaciones</p></div>
@@ -80,7 +85,7 @@ alberca o espacio acuático</p></div>
 certificación CPO y
 personal muy calificado</p></div>
    </div>
-    
+    -->
 </div>
 
 </section>
