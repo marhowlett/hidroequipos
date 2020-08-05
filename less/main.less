@@ -106,9 +106,26 @@
     font-display: swap;
 }
 
+.woodmart-social-icons.icons-size- i, .woodmart-social-icons.icons-size-small i {
+    font-size: 16px;
+   
+    
+}
+#header-inicio{
+    padding-top: 70px;
+    position: relative;
+    top: 10px;
+}
 
-
-body.page-template-inicio, body.page-template-organizamos, body.page-template-nosotros, body.page-template-servicios, body.page-template-poolfix, body.page-template-poolsolutions, body.page-template-poolstructions{
+.color-scheme-light .icons-design-default .woodmart-social-icon, .icons-design-default.color-scheme-light .woodmart-social-icon, .woodmart-dark .icons-design-default .woodmart-social-icon {
+    color: #FFF!important;
+    background-color: @azulcielo!important;
+    margin-left: 10px!important;
+}
+.woodmart-social-icons.text-right.icons-design-default.icons-size-.color-scheme-light.social-share.social-form-square {
+    padding-top: 10px;
+}
+body.page-template-inicio, body.page-template-organizamos, body.page-template-nosotros, body.page-template-servicios, body.page-template-poolfix, body.page-template-poolsolutions, body.page-template-poolstructions, body.page-template-pooldesign, body.page-template-poolsales{
 .row {
     
     display: inherit;
@@ -119,8 +136,13 @@ body.page-template-inicio, body.page-template-organizamos, body.page-template-no
  
         transform: scale(1.4) translateY(-2px);
 }
+.woodmart-social-icons.text-right.icons-design-colored.icons-size-.color-scheme-dark.social-share.social-form-square {
+    position: relative;
+    top: 10px;
+}
 .whb-row.whb-general-header.whb-not-sticky-row.whb-without-bg.whb-without-border.whb-color-dark.whb-flex-equal-sides {
     padding: 20px;
+    padding-top: 40px;
 }
 @import "vars";
 .main-page-wrapper {
@@ -136,10 +158,16 @@ body.page-template-inicio, body.page-template-organizamos, body.page-template-no
         width: 100%;
     }
 }
-.whb-color-dark .navigation-style-underline .item-level-0>a {
-   font-family: 'Avenir';
-     color: @negro;
-    font-size: 16px;
+a.woodmart-nav-link {
+   font-family: 'Avenir'!important;
+    font-weight: normal!important;
+     color: @negro!important;
+    font-size: 16px!important;
+    &:hover{
+        color: @azul!important;
+        text-decoration: underline!important;
+         font-weight: bold!important;
+    }
        
 }
 @media (min-width: 1025px){
@@ -862,7 +890,9 @@ ol {
 
 #ofrecemos{
      background: url(../img/banner11.png) no-repeat top center;
-
+    .col{
+            min-height: auto;
+    }
     .ban{
             margin-top: 470px;
     }
@@ -902,10 +932,28 @@ ol {
     .contenedor{
         max-width: 800px;
     }
-    
+    .col{
+        p{
+            text-align: justify;
+        }
+    }
+    .espe{
+        padding: 10px;
+        img{
+            display: block;
+            margin: auto;
+            position: relative;
+    top: 105px;
+        }
+    }
     h3{
         text-align: center;
+        &.cielo{
         font-weight: normal;
+        }
+    }
+    h4{
+        color: @azulcielo;
     }
     p{
         text-align: center;
@@ -915,6 +963,18 @@ ol {
             text-decoration: underline;
     font-weight: bold;
         color: @azulcielo;
+        
+    }
+    .grandes{
+        p{
+          text-align: justify;  
+        }
+        a{
+            &.hotel{
+                text-decoration: inherit;
+            text-align: justify;
+        }
+        }
     }
 }
 #ventajas{
@@ -1034,6 +1094,7 @@ ol {
 }
 #poolstructions{
      padding: inherit;
+    padding-bottom: 50px;
     
     b{
         color: @azulcielo;
@@ -1081,5 +1142,153 @@ ol {
     }
     .cont{
        padding: 0px 100px 50px 100px;
+    }
+}
+
+#pooldesign{
+    
+    padding: 0px 0px 50px 0px;
+    @media screen and (max-width: 1570px) and (min-width: 750px){
+         padding: inherit;
+    }
+    b{
+        color: @azulcielo;
+    }
+    .colespe1{
+       
+        width: 60%
+    }
+    .colespe2{
+       
+       width: 40%
+    }
+    .fondo{
+         background: url(../img/pooldesignimg.png) no-repeat top center;
+          background-size: contain;
+    height: 600px;
+    }
+
+    img{
+       max-width: 350px;
+    position: relative;
+    left: 5px;
+    margin-bottom: 30px;
+}
+   
+    
+    .espe{
+        padding: 60px;
+           position: relative;
+    top: 50px;
+    right: 42px;
+    }
+
+   
+       
+
+
+    
+    p {
+     text-align: center;
+    max-width: 350px;
+    /* float: right; */
+    clear: both;
+    display: block;
+   
+    }
+}
+#galeria2{
+    background: url(../img/galeria.png) no-repeat left center;
+    background-color: #eeeeee;
+    
+    @media screen and (max-width: 1570px) and (min-width: 750px){
+          background: url(../img/galeria2.png) no-repeat left center;
+    background-color: #eeeeee;
+         
+    }
+    .fondobtn{
+            margin-top: 50px;
+    }
+    .contenedor{
+        max-width: 1100px;
+
+    padding: 10px;
+       margin: 30px auto;
+    }
+}
+.fondo-galeria{
+    position: relative;
+    top: -125px;
+    background: url(../img/galeria3.png) no-repeat right center;
+    .fondo{
+            height: 317px;
+    
+    }
+}
+#instalaciones{
+    padding: inherit;
+    margin-top: -80px;
+    .contenedor{
+        max-width: 900px;
+        p{
+            text-align: center;
+             b{
+        color: @azulcielo;
+    }
+        }
+    }
+    
+}
+
+#poolsales{
+    
+    padding: 0px 0px 50px 0px;
+    @media screen and (max-width: 1570px) and (min-width: 750px){
+         padding: inherit;
+    }
+    b{
+        color: @azulcielo;
+    }
+    .colespe1{
+       
+        width: 60%
+    }
+    .colespe2{
+       
+       width: 40%
+    }
+    .fondo{
+         background: url(../img/poolsalesimg.png) no-repeat top center;
+          background-size: contain;
+    height: 600px;
+    }
+
+    img{
+       max-width: 350px;
+    position: relative;
+    left: 5px;
+    margin-bottom: 30px;
+}
+   
+    
+    .espe{
+        padding: 60px;
+           position: relative;
+       top: 100px;
+    right: 60px;
+    }
+
+   
+       
+
+
+    
+    p {
+     text-align: center;
+    max-width: 350px;
+    /* float: right; */
+    clear: both;
+    display: block;
+   
     }
 }

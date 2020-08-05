@@ -11,7 +11,19 @@ Construimos su alberca o espacio acuático innovando día con día en nuestros m
      </div>
 
 </section>
+ <section id="galeria2" class="template-section">
  
+     <div class="contenedor">
+         
+    <?php echo do_shortcode( '[grid_plus name="poolstructions"]' ); ?>
+   
+   <div class="fondobtn">
+    <a href="#" class="btn">SABER MÁS</a>
+    </div>
+     </div>
+     
+     
+</section>
  <section id="ventajas" class="template-section">
  <div class="contenedor">
  <div class="ban">
