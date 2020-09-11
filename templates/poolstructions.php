@@ -17,9 +17,6 @@ Construimos su alberca o espacio acuático innovando día con día en nuestros m
          
     <?php echo do_shortcode( '[grid_plus name="poolstructions"]' ); ?>
    
-   <div class="fondobtn">
-    <a href="#" class="btn">SABER MÁS</a>
-    </div>
      </div>
      
      

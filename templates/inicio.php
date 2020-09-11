@@ -9,7 +9,7 @@
    <h1>Diseñamos y construimos <span>la alberca tus SUEÑOS</span></h1>
    <div class="center">
    <div class="fondobtn">
-    <a href="#" class="btn">ME INTERESA</a>
+    <a href="https://www.hidroequipos.com/pooldesign" class="btn">ME INTERESA</a>
     </div>
     </div>
     </div>
@@ -23,20 +23,20 @@
    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/onda.png" alt="pool">
    </div>
    <div class="grid">
-       <div class="col2"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/pooldesign.png" alt="pool"><p>DISEÑO</p></div>
-       <div class="col2"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/poolstructions.png" alt="pool"><p>CONSTRUCCIÓN</p></div>
-       <div class="col2"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/poolsolutions.png" alt="pool"><p>MANTENIMIENTO</p></div>
+       <div class="col2"><a href="https://www.hidroequipos.com/pooldesign"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/pooldesign.png" alt="pool"><p>DISEÑO</p></a></div>
+       <div class="col2"><a href="https://www.hidroequipos.com/poolstructions"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/poolstructions.png" alt="pool"><p>CONSTRUCCIÓN</p></a></div>
+       <div class="col2"><a href="https://www.hidroequipos.com/poolsolutions"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/poolsolutions.png" alt="pool"><p>MANTENIMIENTO</p></a></div>
    </div>
    <div class="grid especial">
-       <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/poolfix.png" alt="pool"><p>REPARACIÓN</p></div>
-       <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/poolsales.png" alt="pool"><p>QUÍMICOS Y EQUIPOS</p></div>
+       <div class="col"><a href="https://www.hidroequipos.com/poolfix"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/poolfix.png" alt="pool"><p>REPARACIÓN</p></a></div>
+       <div class="col"><a href="https://www.hidroequipos.com/poolsales"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/poolsales.png" alt="pool"><p>QUÍMICOS Y EQUIPOS</p></a></div>
 
    </div>
    <h3>para que usted disfrute al máximo<span>
 su alberca o espacio acuático</span></h3>
  
  <div class="fondobtn">
-    <a href="#" class="btn">SABER MÁS</a>
+    <a href="https://www.hidroequipos.com/servicios/" class="btn">SABER MÁS</a>
     </div>
   
 </div>
@@ -55,9 +55,7 @@ su alberca o espacio acuático</span></h3>
     <div class="conte">
     <?php echo do_shortcode( '[grid_plus name="galeria"]' ); ?>
     </div>
-    <div class="fondobtn blanco">
-    <a href="#" class="btn blanco">SABER MÁS</a>
-    </div>
+    
     
 </div>
 </section>
@@ -136,7 +134,7 @@ San José del Cabo, B.C.S</span></p></div>
                 
                  
                  <?php echo do_shortcode( '[caldera_form id="CF5f10927d4ec48"]' ); ?>
-                 <p class="imagenes redes">Síguenos en <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/facebook.png" alt="Logo"></a><a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/instagram.png" alt="Logo"></a><a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/twitter.png" alt="Logo"></a><a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/YT.png" alt="Logo"></a></p>
+                 <p class="imagenes redes">Síguenos en <a href="https://www.facebook.com/poolsolutionsbyh"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/facebook.png" alt="Logo"></a><a href="https://www.instagram.com/redeshidroequipos/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/instagram.png" alt="Logo"></a><a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/twitter.png" alt="Logo"></a><a href="https://www.youtube.com/channel/UC9qTdT414LUINlgxTZ2RNjg?view_as=subscriber"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/YT.png" alt="Logo"></a></p>
                 </div>
 
  </div>        

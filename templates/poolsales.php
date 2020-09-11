@@ -10,7 +10,16 @@
      </div>
 
 </section>
-
+ <section id="galeria2" class="template-section">
+ 
+     <div class="contenedor">
+         
+    <?php echo do_shortcode( '[grid_plus name="poolsales"]' ); ?>
+   
+  
+     </div>
+     
+</section> 
  
  <section id="ventajas" class="template-section">
  <div class="contenedor">
@@ -61,7 +70,7 @@ GRANDES USARIOS</b></p><p><?php echo do_shortcode('[popup_anything id="97"]'); ?
 <section id="ofrecemos-slider" class="template-section">
 <div class="contenedor">
 <div class="cont">
-    <?php echo do_shortcode('[slide-anything id="84"]'); ?>
+    <?php echo do_shortcode('[slide-anything id="217"]'); ?>
     </div>
     </div>
 </section>

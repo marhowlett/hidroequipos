@@ -125,7 +125,7 @@
 .woodmart-social-icons.text-right.icons-design-default.icons-size-.color-scheme-light.social-share.social-form-square {
     padding-top: 10px;
 }
-body.page-template-inicio, body.page-template-organizamos, body.page-template-nosotros, body.page-template-servicios, body.page-template-poolfix, body.page-template-poolsolutions, body.page-template-poolstructions, body.page-template-pooldesign, body.page-template-poolsales{
+body.page-template-inicio, body.page-template-organizamos, body.page-template-nosotros, body.page-template-servicios, body.page-template-poolfix, body.page-template-poolsolutions, body.page-template-poolstructions, body.page-template-pooldesign, body.page-template-poolsales, body.page-template-organigrama{
 .row {
     
     display: inherit;
@@ -358,7 +358,7 @@ ol {
         display: block;
     margin: auto;
     }
-    .btn {
+    .btn, a.load-more.ladda-button {
         
         transition: all 0.3s ease-in-out;
          font-family: 'Avenir';
@@ -442,7 +442,17 @@ ol {
      @media screen and (max-width: 1570px) and (min-width: 750px){
     background: url(../img/banner1res.png) no-repeat center;
          background-size: auto;
-         height: 1349px;
+            height: 1524px;
+    }
+        .grid-load-more-wrap.text-center.grid-gutter-0 {
+    /* margin-top: 20px; */
+    background: url(../img/boton2.png) no-repeat center;
+    text-align: center;
+    display: block;
+    /* margin: auto; */
+}
+    a.load-more.ladda-button{
+        color: white;
     }
     background-size: cover;
    height: 1758px;
@@ -653,8 +663,15 @@ ol {
     padding: 50px 0;
     height: 1000px;
    
-    img,p{
+   img,p, h3{
+       
         opacity: inherit!important;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+        -webkit-transform: translateY(0px)!important;
+    opacity: 0;
+    transform: translateY(0px)!important;
     }
     p{
         text-align: justify;
@@ -662,7 +679,7 @@ ol {
     .colespe{
         padding: inherit;
         position: relative;
-    top: 70px;
+       top: 11px;
     }
     span{
         color: @azul;
@@ -676,7 +693,7 @@ ol {
          height: 1200px;
         .colespe {
    
-    top: 245px;
+       top: 185px;
               
 }
    
@@ -766,16 +783,48 @@ ol {
 #conocenos{
     h3{
             font-size: 30px;
+            line-height: 1em;
+        span{
+            display: block;
+            color: @negro;
+        }
     }
     img,p, h3{
        
         opacity: inherit!important;
     display: block;
-    margin: auto;
+    margin: 10px auto;
     text-align: center;
+        -webkit-transform: translateY(0px)!important;
+    opacity: 0;
+    transform: translateY(0px)!important;
     }
     .cont{
         padding: 20px 0px;
+    }
+    .contespe{
+        .owl-dots.disabled {
+    position: relative;
+    top: -75px;
+    margin-bottom: -75px;
+            
+}
+        h3.espe{
+                    margin-bottom: -35px;
+            }
+    }
+    h3.especial{
+        margin-top: 145px;
+    }
+    p.espe{
+        font-size: 15px;
+        color: @azul;
+    }
+    .ban2{
+        display: block;
+    margin: auto;
+   margin-bottom: 50px;
+    text-align: center;
     }
     
 }
@@ -830,9 +879,14 @@ ol {
     }
      img,p, h3{
        
-        opacity: inherit!important;
-             display: block;
+       
+          opacity: inherit!important;
+    display: block;
     margin: auto;
+    text-align: center;
+        -webkit-transform: translateY(0px)!important;
+    
+    transform: translateY(0px)!important;
     }
     
 }
@@ -844,7 +898,7 @@ ol {
 
 /***POOLFIX**/
 #poolfix{
-     padding: inherit;
+    padding: 40px 0;
     
     b{
         color: @azulcielo;
@@ -890,9 +944,10 @@ ol {
 
 #ofrecemos{
      background: url(../img/banner11.png) no-repeat top center;
-    .col{
+    .col, .col4, .col3{
             min-height: auto;
     }
+    
     .ban{
             margin-top: 470px;
     }
@@ -1206,6 +1261,17 @@ ol {
     background-color: #eeeeee;
          
     }
+    a.load-more.ladda-button {
+    border: none;
+    margin-top: 10px;
+}
+    .grid-load-more-wrap.text-center.grid-gutter-0 {
+    /* margin-top: 20px; */
+    background: url(../img/boton.png) no-repeat center;
+    text-align: center;
+    display: block;
+    /* margin: auto; */
+}
     .fondobtn{
             margin-top: 50px;
     }
@@ -1245,6 +1311,7 @@ ol {
     padding: 0px 0px 50px 0px;
     @media screen and (max-width: 1570px) and (min-width: 750px){
          padding: inherit;
+        padding-bottom: 50px;
     }
     b{
         color: @azulcielo;

@@ -10,7 +10,17 @@
      </div>
 
 </section>
+ <section id="galeria2" class="template-section">
  
+     <div class="contenedor">
+         
+    <?php echo do_shortcode( '[grid_plus name="poolsolutions"]' ); ?>
+   
+   
+     </div>
+     
+     
+</section>
  <section id="ventajas2" class="template-section">
  <div class="contenedor">
  <div class="ban">
@@ -59,7 +69,13 @@ TRABAJO EXTRA</b></p><p><?php echo do_shortcode('[popup_anything id="80"]'); ?><
     </div>
 </div>
 </section>
-
+<section id="ofrecemos-slider" class="template-section">
+<div class="contenedor">
+<div class="cont">
+    <?php echo do_shortcode('[slide-anything id="219"]'); ?>
+    </div>
+    </div>
+</section>
 
 <?php 
     get_footer();

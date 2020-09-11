@@ -85,7 +85,10 @@ También  ofrecemos servicios asociados como  el <b class="blanco">mantenimiento
     
     </div>
     <div class="cont">
-    <?php echo do_shortcode( '[slide-anything id="41"]' ); ?>
+    <?php echo do_shortcode( '[slide-anything id="174"]' ); ?>
+    </div>
+    <div class="fondobtn">
+    <a href="https://www.hidroequipos.com/organigrama" class="btn">VER MÁS</a>
     </div>
 </div>
 </section>

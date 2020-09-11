@@ -18,9 +18,7 @@ Esta es el área más importante de la empresa. Nosotros estudiamos sus necesida
          
     <?php echo do_shortcode( '[grid_plus name="pooldesign"]' ); ?>
    
-   <div class="fondobtn">
-    <a href="#" class="btn">SABER MÁS</a>
-    </div>
+   
      </div>
      
      
@@ -83,7 +81,7 @@ Esta es el área más importante de la empresa. Nosotros estudiamos sus necesida
 <section id="ofrecemos-slider" class="template-section">
 <div class="contenedor">
 <div class="cont">
-    <?php echo do_shortcode('[slide-anything id="84"]'); ?>
+    <?php echo do_shortcode('[slide-anything id="213"]'); ?>
     </div>
     </div>
 </section>

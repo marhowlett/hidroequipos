@@ -110,7 +110,8 @@ body.page-template-poolfix .row,
 body.page-template-poolsolutions .row,
 body.page-template-poolstructions .row,
 body.page-template-pooldesign .row,
-body.page-template-poolsales .row {
+body.page-template-poolsales .row,
+body.page-template-organigrama .row {
   display: inherit;
 }
 /* Ajustes generales de la plantilla */
@@ -303,7 +304,8 @@ ol {
 .template-section .fondobtn.blanco {
   background: url(../img/boton2.png) no-repeat center;
 }
-.template-section .btn {
+.template-section .btn,
+.template-section a.load-more.ladda-button {
   transition: all 0.3s ease-in-out;
   font-family: 'Avenir';
   background-color: transparent;
@@ -311,10 +313,12 @@ ol {
   font-size: 17px;
   color: #006e93;
 }
-.template-section .btn.blanco {
+.template-section .btn.blanco,
+.template-section a.load-more.ladda-button.blanco {
   color: white;
 }
-.template-section .btn:hover {
+.template-section .btn:hover,
+.template-section a.load-more.ladda-button:hover {
   transform: translateY(-5px);
   background-color: transparent;
 }
@@ -376,8 +380,18 @@ ol {
   #galeria {
     background: url(../img/banner1res.png) no-repeat center;
     background-size: auto;
-    height: 1349px;
+    height: 1524px;
   }
+}
+#galeria .grid-load-more-wrap.text-center.grid-gutter-0 {
+  /* margin-top: 20px; */
+  background: url(../img/boton2.png) no-repeat center;
+  text-align: center;
+  display: block;
+  /* margin: auto; */
+}
+#galeria a.load-more.ladda-button {
+  color: white;
 }
 #galeria .contenedor {
   position: relative;
@@ -561,8 +575,15 @@ ol {
   height: 1000px;
 }
 #nosotros img,
-#nosotros p {
+#nosotros p,
+#nosotros h3 {
   opacity: inherit!important;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  -webkit-transform: translateY(0px) !important;
+  opacity: 0;
+  transform: translateY(0px) !important;
 }
 #nosotros p {
   text-align: justify;
@@ -570,7 +591,7 @@ ol {
 #nosotros .colespe {
   padding: inherit;
   position: relative;
-  top: 70px;
+  top: 11px;
 }
 #nosotros span {
   color: #006e93;
@@ -585,7 +606,7 @@ ol {
     height: 1200px;
   }
   #nosotros .colespe {
-    top: 245px;
+    top: 185px;
   }
 }
 #garantizamos {
@@ -661,17 +682,46 @@ ol {
 }
 #conocenos h3 {
   font-size: 30px;
+  line-height: 1em;
+}
+#conocenos h3 span {
+  display: block;
+  color: #434343;
 }
 #conocenos img,
 #conocenos p,
 #conocenos h3 {
   opacity: inherit!important;
   display: block;
-  margin: auto;
+  margin: 10px auto;
   text-align: center;
+  -webkit-transform: translateY(0px) !important;
+  opacity: 0;
+  transform: translateY(0px) !important;
 }
 #conocenos .cont {
   padding: 20px 0px;
+}
+#conocenos .contespe .owl-dots.disabled {
+  position: relative;
+  top: -75px;
+  margin-bottom: -75px;
+}
+#conocenos .contespe h3.espe {
+  margin-bottom: -35px;
+}
+#conocenos h3.especial {
+  margin-top: 145px;
+}
+#conocenos p.espe {
+  font-size: 15px;
+  color: #006e93;
+}
+#conocenos .ban2 {
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+  text-align: center;
 }
 #staff {
   background-color: #00abcf;
@@ -724,13 +774,16 @@ ol {
   opacity: inherit!important;
   display: block;
   margin: auto;
+  text-align: center;
+  -webkit-transform: translateY(0px) !important;
+  transform: translateY(0px) !important;
 }
 .fondoservicios {
   background: url(../img/serviciosfondo.jpg) no-repeat top center;
 }
 /***POOLFIX**/
 #poolfix {
-  padding: inherit;
+  padding: 40px 0;
 }
 #poolfix b {
   color: #00abcf;
@@ -764,7 +817,9 @@ ol {
 #ofrecemos {
   background: url(../img/banner11.png) no-repeat top center;
 }
-#ofrecemos .col {
+#ofrecemos .col,
+#ofrecemos .col4,
+#ofrecemos .col3 {
   min-height: auto;
 }
 #ofrecemos .ban {
@@ -1015,6 +1070,17 @@ ol {
     background-color: #eeeeee;
   }
 }
+#galeria2 a.load-more.ladda-button {
+  border: none;
+  margin-top: 10px;
+}
+#galeria2 .grid-load-more-wrap.text-center.grid-gutter-0 {
+  /* margin-top: 20px; */
+  background: url(../img/boton.png) no-repeat center;
+  text-align: center;
+  display: block;
+  /* margin: auto; */
+}
 #galeria2 .fondobtn {
   margin-top: 50px;
 }
@@ -1050,6 +1116,7 @@ ol {
 @media screen and (max-width: 1570px) and (min-width: 750px) {
   #poolsales {
     padding: inherit;
+    padding-bottom: 50px;
   }
 }
 #poolsales b {
