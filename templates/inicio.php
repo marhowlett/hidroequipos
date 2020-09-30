@@ -102,7 +102,7 @@ personal muy calificado</p></div>
         <div class="centro">
         
         
-        <?php echo do_shortcode('[vc_row][vc_column][woodmart_blog items_per_page="3" blog_design="masonry" img_size="200x100" parts_title="1" parts_meta="1" parts_text="1" parts_btn="1" lazy_loading="no" blog_columns="3"][/vc_column][/vc_row]');?>
+        <?php echo do_shortcode('[woodmart_blog items_per_page="3" pagination="more-btn" blog_design="masonry" img_size="full" parts_title="1" parts_meta="1" parts_text="1" parts_btn="1" lazy_loading="no" blog_columns="3"]');?>
 
          
      </div>

@@ -3,13 +3,21 @@
     get_header();
 ?>
  <section id="poolstructions" class="template-section">
- 
+ <div class="lap">
      <div class="grid">
          <div class="col fondo"></div>
          <div class="col espe"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/poolstructions2.png" alt="pool"><p>La mejor opción para construir su <b>alberca o espacio acuático. </b>
 Construimos su alberca o espacio acuático innovando día con día en nuestros métodos para mantenernos a la vanguardia.</p></div>
      </div>
-
+</div>
+ <div class="cel">
+     <div class="grid">
+         
+         <div class="col espe"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/poolstructions2.png" alt="pool"><p>La mejor opción para construir su <b>alberca o espacio acuático. </b>
+Construimos su alberca o espacio acuático innovando día con día en nuestros métodos para mantenernos a la vanguardia.</p></div>
+    <div class="col fondo"></div>
+     </div>
+</div>
 </section>
  <section id="galeria2" class="template-section">
  

@@ -3,14 +3,23 @@
     get_header();
 ?>
  <section id="pooldesign" class="template-section">
- 
+ <div class="lap">
      <div class="grid">
          <div class="colespe1 fondo"></div>
          <div class="colespe2 espe"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/pooldesign2.png" alt="pool"><p>El mejor servicio de diseño de 
  <b>albercas o espacios acuáticos. </b>
 Esta es el área más importante de la empresa. Nosotros estudiamos sus necesidades de cada cliente, nos tomamos el tiempo para crear el mejor y más adecuado diseño para su alberca.   </p></div>
      </div>
-
+</div>
+<div class="cel">
+     <div class="grid">
+         
+         <div class="colespe2 espe"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/pooldesign2.png" alt="pool"><p>El mejor servicio de diseño de 
+ <b>albercas o espacios acuáticos. </b>
+Esta es el área más importante de la empresa. Nosotros estudiamos sus necesidades de cada cliente, nos tomamos el tiempo para crear el mejor y más adecuado diseño para su alberca.   </p></div>
+    <div class="colespe1 fondo"></div>
+     </div>
+</div>
 </section>
 <section id="galeria2" class="template-section">
  

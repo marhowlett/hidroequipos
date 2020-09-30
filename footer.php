@@ -28,7 +28,7 @@
 	<footer >
      <section id="esbrillante" class="template-section">
  <div class="contenedor">
- <p class="blanco">Todos los derechos reservados / Desarrollo web por <a href="http://esbrillante.mx/">EsBrillante</a></p>
+ <p class="blanco">Sitio web diseñado por <a href="http://esbrillante.mx/">EsBrillante</a></p>
 </div>
 </section>
 </footer>

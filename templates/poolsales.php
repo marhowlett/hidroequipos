@@ -3,12 +3,19 @@
     get_header();
 ?>
  <section id="poolsales" class="template-section">
- 
+     <div class="lap">
      <div class="grid">
          <div class="colespe1 fondo"></div>
          <div class="colespe2 espe"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/poolsales2.png" alt="pool"><p>Vendemos <b>los productos y accesorios</b> que requiere para mejorar el estado y funcionamiento de su alberca. Esta área de la empresa está dedicada a aquellos usuarios que deciden hacer las cosas por ellos mismos.</p></div>
      </div>
-
+    </div>
+    <div class="cel">
+     <div class="grid">
+         
+         <div class="colespe2 espe"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/poolsales2.png" alt="pool"><p>Vendemos <b>los productos y accesorios</b> que requiere para mejorar el estado y funcionamiento de su alberca. Esta área de la empresa está dedicada a aquellos usuarios que deciden hacer las cosas por ellos mismos.</p></div>
+         <div class="colespe1 fondo"></div>
+     </div>
+    </div>
 </section>
  <section id="galeria2" class="template-section">
  

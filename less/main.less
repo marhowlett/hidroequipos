@@ -125,7 +125,7 @@
 .woodmart-social-icons.text-right.icons-design-default.icons-size-.color-scheme-light.social-share.social-form-square {
     padding-top: 10px;
 }
-body.page-template-inicio, body.page-template-organizamos, body.page-template-nosotros, body.page-template-servicios, body.page-template-poolfix, body.page-template-poolsolutions, body.page-template-poolstructions, body.page-template-pooldesign, body.page-template-poolsales, body.page-template-organigrama{
+body.page-template-inicio, body.page-template-organizamos, body.page-template-nosotros, body.page-template-servicios, body.page-template-poolfix, body.page-template-poolsolutions, body.page-template-poolstructions, body.page-template-pooldesign, body.page-template-poolsales, body.page-template-organigrama, body.page-template-staff{
 .row {
     
     display: inherit;
@@ -136,6 +136,12 @@ body.page-template-inicio, body.page-template-organizamos, body.page-template-no
  
         transform: scale(1.4) translateY(-2px);
 }
+.cel{
+        display: none;
+    }
+    .lap{
+        display: inherit;
+    }
 .woodmart-social-icons.text-right.icons-design-colored.icons-size-.color-scheme-dark.social-share.social-form-square {
     position: relative;
     top: 10px;
@@ -412,6 +418,32 @@ ol {
     }
 }
 #servicios{
+    .col2, .col{
+            min-height: inherit;
+        p{
+            margin-top: 20px;
+        }
+    }
+    .especial{
+        max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    }
+    img{
+        display: block;
+        margin: auto;
+    }
+    p{
+        text-align: center;
+    }
+   
+    h3{
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+#servicios2{
+    padding: inherit;
     .col2, .col{
             min-height: inherit;
         p{
@@ -844,6 +876,18 @@ ol {
         text-align: center;
         margin: 20px auto;
         margin-bottom: 30px;
+    }
+}
+#staff2{
+    padding-top: 150px;
+      background: url(../img/staff2.jpg) no-repeat top center;
+    img{
+            display: block;
+    margin: auto;
+    }
+    h3{
+        text-align: center;
+        margin-top: 20px;
     }
 }
 #servicioscomienzo{
@@ -1359,3 +1403,5 @@ ol {
    
     }
 }
+
+@import "responsive";

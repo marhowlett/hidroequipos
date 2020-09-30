@@ -12,7 +12,7 @@
    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/onda.png" alt="pool">
     
     </div> <p class="blanco">Somos una empresa <b class="blanco">100% mexicana</b> con más de 40 años en el mercado, con el objetivo de brindar a nuestros clientes la seguridad y calidad de nuestra integración, intervención de proyectos de construcción, mantenimiento y reparación, instalación de piscinas nuevas, renovaciones de piscinas, construcción de piscinas y una amplia gama de programas de mantenimiento, así como suministros.</p></div>
-          <div class="col"> <?php echo do_shortcode( '[slide-anything id="35"]' ); ?></div>
+          <div class="col slideespe"> <?php echo do_shortcode( '[slide-anything id="35"]' ); ?></div>
       </div>
       <div class="grid">
           <div class="col"></div>
@@ -65,7 +65,7 @@ También  ofrecemos servicios asociados como  el <b class="blanco">mantenimiento
    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/onda.png" alt="pool">
     
     </div>
-    <div class="grid">
+    <div class="grid gridespecial">
         <div class="col3"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/calidad.png" alt="pool"> <h3 class="blanco">CALIDAD</h3></div>
          <div class="col3"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/servicio.png" alt="pool"><h3 class="blanco">SERVICIO</h3></div>
           <div class="col3"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ecología.png" alt="pool"><h3 class="blanco">ECOLOGÍA</h3></div>

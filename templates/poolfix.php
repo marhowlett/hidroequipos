@@ -3,12 +3,19 @@
     get_header();
 ?>
  <section id="poolfix" class="template-section">
- 
+     <div class="lap">
      <div class="grid">
          <div class="colespe1 fondo"></div>
          <div class="colespe2 espe"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/poolfix2.png" alt="pool"><p>Nos dedicamos al mantenimiento correctivo de cualquier espacio creados para contener agua de forma estética, recreativa, principalmente <b>Albercas,</b> pero también <b>fuentes, espejos de agua, lagos artificiales con y sin flora y fauna,</b> etc.</p></div>
      </div>
-
+    </div>
+    <div class="cel">
+     <div class="grid">
+         
+         <div class="colespe2 espe"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/poolfix2.png" alt="pool"><p>Nos dedicamos al mantenimiento correctivo de cualquier espacio creados para contener agua de forma estética, recreativa, principalmente <b>Albercas,</b> pero también <b>fuentes, espejos de agua, lagos artificiales con y sin flora y fauna,</b> etc.</p></div>
+         <div class="colespe1 fondo"></div>
+     </div>
+    </div>
 </section>
  <section id="galeria2" class="template-section">
  

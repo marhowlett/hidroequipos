@@ -3,12 +3,19 @@
     get_header();
 ?>
  <section id="poolsolutions" class="template-section">
- 
+ <div class="lap">
      <div class="grid">
          <div class="colespe1 fondo"></div>
          <div class="colespe2 espe"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/poolsolutions2.png" alt="pool"><p>Nuestra especialidad es mantener su alberca en las mejores condiciones: <b>técnicas, visuales, de desinfección, cepillado y otras</b> para asegurarnos de que siempre sea sana y ecológica.</p></div>
      </div>
-
+</div>
+ <div class="cel">
+     <div class="grid">
+         
+         <div class="colespe2 espe"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/poolsolutions2.png" alt="pool"><p>Nuestra especialidad es mantener su alberca en las mejores condiciones: <b>técnicas, visuales, de desinfección, cepillado y otras</b> para asegurarnos de que siempre sea sana y ecológica.</p></div>
+         <div class="colespe1 fondo"></div>
+     </div>
+</div>
 </section>
  <section id="galeria2" class="template-section">
  
