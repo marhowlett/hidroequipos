@@ -105,7 +105,7 @@ DE TÉCNICOS</span></h2>
     <img class="espe" src="<?php echo get_stylesheet_directory_uri(); ?>/img/staff.png" alt="pool">
     <h3 class="blanco">¿Necesitas más información?</h3>
     <div class="fondobtn blanco">
-    <a href="#" class="btn blanco">CONTÁCTANOS</a>
+    <a href="https://www.hidroequipos.com/#contacto" class="btn blanco">CONTÁCTANOS</a>
     </div>
     </div>
 </section>

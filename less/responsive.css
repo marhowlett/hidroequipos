@@ -4,6 +4,102 @@
     display: none!important;
   }
 }
+@media (min-width: 1921px) {
+  .template-section .contenedor {
+    max-width: 1600px;
+  }
+  #slider {
+    background: url(../img/slider1250.jpg) no-repeat right bottom;
+  }
+  .template-section p,
+  .template-section ul,
+  .template-section li,
+  .template-section a {
+    font-size: 23px;
+  }
+  #galeria {
+    background: url(../img/banner1250.png) no-repeat right center;
+    background-size: cover;
+    height: 1622px;
+    z-index: 20;
+    margin-top: -102px;
+  }
+  #galeria .contenedor {
+    position: relative;
+    top: 270px;
+  }
+  #esbrillante {
+    background: url(../img/footer250.png) no-repeat center;
+    padding: inherit;
+    height: 191px;
+    margin-top: -138px;
+  }
+  #esbrillante p {
+    position: relative;
+    top: 68px;
+  }
+  .fondoservicios {
+    background: url(../img/serviciosfondo250.jpg) no-repeat top center;
+  }
+  #servicioscomienzo {
+    padding-top: 970px;
+  }
+  #servicioscomienzo .colespe2 {
+    min-height: 700px;
+  }
+  #servicioscomienzo .colespe2 img {
+    position: relative;
+    top: 170px;
+  }
+  #servicioscomienzo .colespe2 p {
+    position: relative;
+    top: 210px;
+    text-align: center;
+    font-size: 30px;
+  }
+  #nosotros .colespe {
+    /* max-height: 100px; */
+    padding: 0px;
+    top: 55px;
+    right: 319px;
+  }
+  #nosotros h3 {
+    text-align: center;
+    max-width: 565px;
+  }
+  #garantizamos {
+    padding-top: 1634px;
+  }
+  #garantizamos .contenedor {
+    position: relative;
+    top: -880px;
+  }
+  #actualmente .contenedor {
+    position: relative;
+    top: -350px;
+  }
+  #valores {
+    padding-bottom: 440px;
+  }
+  #ofrecemos {
+    background: url(../img/banner11250.png) no-repeat top center;
+  }
+  #ofrecemos2 .contenedor {
+    max-width: 1200px;
+  }
+  #poolsolutions .fondo {
+    background: url(../img/poolsoluimg250.png) no-repeat left center;
+    background-size: auto;
+    height: 1000px;
+  }
+  #poolsolutions p {
+    font-size: 23px;
+  }
+  #staff2 {
+    padding-top: 150px;
+    background: url(../img/staff2250.jpg) no-repeat top center;
+  }
+}
 @media screen and (max-width: 750px) {
   /*LOGO*/
   .woodmart-logo img {

@@ -128,8 +128,8 @@ personal muy calificado</p></div>
 <span>Sábado 8:30 am - 2:00 pm</span></p>
                    <p> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/phone.png" alt="Logo"> 624 164 4122  </p>
                    <p> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/mail.png" alt="Logo"> <a class="evento" href="mailto:client_services@hidroequipos.com">client_services@hidroequipos.com</a></p>
-                   <p> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/location.png" alt="Logo"> 5 de Mayo S/N Col. Sta Rosa, 23428<span>
-San José del Cabo, B.C.S</span></p></div>
+                   <p> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/location.png" alt="Logo"> <a href="https://www.google.com/maps/place/Hidroequipos/@23.0898073,-109.7056871,15z/data=!4m2!3m1!1s0x0:0x908fd838f227d76e?sa=X&ved=2ahUKEwj-x56mjqPsAhUIGKwKHUX7Ay8Q_BIwCnoECBIQBQ">5 de Mayo S/N Col. Sta Rosa, 23428<span>
+San José del Cabo, B.C.S</span></a></p></div>
                 </div>
                 
                  
