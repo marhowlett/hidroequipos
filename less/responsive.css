@@ -8,6 +8,9 @@
   .template-section .contenedor {
     max-width: 1600px;
   }
+  #staff2 {
+    min-height: 1050px;
+  }
   #slider {
     background: url(../img/slider1250.jpg) no-repeat right bottom;
   }
@@ -321,7 +324,15 @@
     font-size: 12px;
     text-align: center;
   }
+  body.page-template-staff form.post-password-form {
+    position: relative;
+    margin-top: 150px;
+    left: 0px;
+    max-width: 700px;
+    text-align: center;
+  }
   #staff h2 {
+    min-height: 700px;
     font-size: 32px;
     line-height: 1.2em;
   }

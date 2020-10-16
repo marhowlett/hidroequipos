@@ -28,11 +28,7 @@
 	<footer >
      <section id="esbrillante" class="template-section">
  <div class="contenedor">
- <div class="grid">
-     <div class="col"><p class="blanco"> <a href="https://www.hidroequipos.com/staff">Staff</a></p></div>
-     <div class="col"><p class="blanco">Sitio web diseñado por <a href="http://esbrillante.mx/">EsBrillante</a></p></div>
- </div>
- 
+ <p class="blanco">Sitio web diseñado por <a href="http://esbrillante.mx/">EsBrillante</a></p>
 </div>
 </section>
 </footer>

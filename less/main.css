@@ -596,9 +596,9 @@ ol {
   margin-top: -105px;
 }
 #esbrillante p {
-  text-align: center;
+  text-align: right;
   position: relative;
-  top: 33px;
+  top: 90px;
 }
 #esbrillante a {
   font-weight: bold;
@@ -780,10 +780,14 @@ body.page-template-staff form.post-password-form {
   position: relative;
   margin-top: 250px;
   left: 320px;
+  max-width: 700px;
+  text-align: center;
 }
 #staff2 {
   padding-top: 150px;
-  background: url(../img/staff2.jpg) no-repeat top center;
+  background: url(../img/staff2250.jpg) no-repeat top center;
+  /* height: 1400px; */
+  min-height: 800px;
 }
 #staff2 img {
   display: block;
@@ -1215,6 +1219,9 @@ body.page-template-staff form.post-password-form {
   .template-section .contenedor {
     max-width: 1600px;
   }
+  #staff2 {
+    min-height: 1050px;
+  }
   #slider {
     background: url(../img/slider1250.jpg) no-repeat right bottom;
   }
@@ -1528,7 +1535,15 @@ body.page-template-staff form.post-password-form {
     font-size: 12px;
     text-align: center;
   }
+  body.page-template-staff form.post-password-form {
+    position: relative;
+    margin-top: 150px;
+    left: 0px;
+    max-width: 700px;
+    text-align: center;
+  }
   #staff h2 {
+    min-height: 700px;
     font-size: 32px;
     line-height: 1.2em;
   }
