@@ -87,12 +87,12 @@ personal muy calificado</p></div>
 </div>
 
 </section>
-    <section id="blog" class="template-section">
+    <section id="instagram" class="template-section">
     
     
      <div class="contenedor">
       <div class="ban">
-   <h2 >BLOG</h2>
+   <h2 >INSTAGRAM</h2>
   
  <p>Esto podria interesarte </p>
    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/onda.png" alt="pool">
@@ -102,7 +102,7 @@ personal muy calificado</p></div>
         <div class="centro">
         
         
-        <?php echo do_shortcode('[woodmart_blog items_per_page="3" pagination="more-btn" blog_design="masonry" img_size="full" parts_title="1" parts_meta="1" parts_text="1" parts_btn="1" lazy_loading="no" blog_columns="3"]');?>
+        <?php echo do_shortcode('[elfsight_instagram_feed id="1"]');?>
 
          
      </div>

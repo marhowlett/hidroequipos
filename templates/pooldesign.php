@@ -90,7 +90,7 @@ Esta es el área más importante de la empresa. Nosotros estudiamos sus necesida
 <section id="ofrecemos-slider" class="template-section">
 <div class="contenedor">
 <div class="cont">
-    <?php echo do_shortcode('[slide-anything id="213"]'); ?>
+    <?php echo do_shortcode('[rev_slider alias="pooldesign"][/rev_slider]'); ?>
     </div>
     </div>
 </section>

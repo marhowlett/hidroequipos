@@ -75,7 +75,7 @@
 <section id="ofrecemos-slider" class="template-section">
 <div class="contenedor">
 <div class="cont">
-    <?php echo do_shortcode('[slide-anything id="215"]'); ?>
+    <?php echo do_shortcode('[rev_slider alias="poolfix"][/rev_slider]'); ?>
     </div>
     </div>
 </section>

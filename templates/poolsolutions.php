@@ -79,7 +79,7 @@ TRABAJO EXTRA</b></p><p><?php echo do_shortcode('[popup_anything id="80"]'); ?><
 <section id="ofrecemos-slider" class="template-section">
 <div class="contenedor">
 <div class="cont">
-    <?php echo do_shortcode('[slide-anything id="219"]'); ?>
+    <?php echo do_shortcode('[rev_slider alias="PoolSolutions"][/rev_slider]'); ?>
     </div>
     </div>
 </section>

@@ -74,7 +74,7 @@ Construimos su alberca o espacio acuático innovando día con día en nuestros m
 <section id="ofrecemos-slider" class="template-section">
 <div class="contenedor">
 <div class="cont">
-    <?php echo do_shortcode('[slide-anything id="84"]'); ?>
+    <?php echo do_shortcode('[rev_slider alias="poolstructions"][/rev_slider]'); ?>
     </div>
     </div>
 </section>

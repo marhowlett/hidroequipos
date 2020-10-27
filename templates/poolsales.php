@@ -77,7 +77,7 @@ GRANDES USARIOS</b></p><p><?php echo do_shortcode('[popup_anything id="97"]'); ?
 <section id="ofrecemos-slider" class="template-section">
 <div class="contenedor">
 <div class="cont">
-    <?php echo do_shortcode('[slide-anything id="217"]'); ?>
+    <?php echo do_shortcode('[rev_slider alias="poolsales"][/rev_slider]'); ?>
     </div>
     </div>
 </section>
