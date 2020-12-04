@@ -52,9 +52,9 @@
     <?php echo do_shortcode( '[slide-anything id="188"]' ); ?>
     
      </div>
-     <div class="cont" id="poolfixorg">
-  <h3>Poolfix</h3>
-    <?php echo do_shortcode( '[slide-anything id="190"]' ); ?>
+     <div class="cont contespe" id="poolfixorg">
+  <h3 class="espe">Poolfix</h3>
+    <?php echo do_shortcode( '[slide-anything id="1711"]' ); ?>
     
      </div>
      <div class="cont" id="pooldesignorg">

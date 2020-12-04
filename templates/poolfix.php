@@ -67,7 +67,7 @@
     <div class="grid">
         <div class="col3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/RECUBRIMIENTO.png" alt="pool"><p><b>RECUBRIMIENTO</b></p><p><?php echo do_shortcode('[popup_anything id="68"]'); ?><img class="flecha" src="<?php echo get_stylesheet_directory_uri(); ?>/img/flecha.png" alt="pool"></p></div>
         <div class="col3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/EQUIPOS.png" alt="pool"><p><b>EQUIPOS</b></p><p><?php echo do_shortcode('[popup_anything id="71"]'); ?><img class="flecha" src="<?php echo get_stylesheet_directory_uri(); ?>/img/flecha.png" alt="pool"></p></div>
-        <div class="col3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/automatización.png" alt="pool"><p><b>AUTOMATICAZIÓN</b></p><p><?php echo do_shortcode('[popup_anything id="72"]'); ?><img class="flecha" src="<?php echo get_stylesheet_directory_uri(); ?>/img/flecha.png" alt="pool"></p></div>
+        <div class="col3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/automatización.png" alt="pool"><p><b>AUTOMATIZACIÓN</b></p><p><?php echo do_shortcode('[popup_anything id="72"]'); ?><img class="flecha" src="<?php echo get_stylesheet_directory_uri(); ?>/img/flecha.png" alt="pool"></p></div>
         <div class="col3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/capacitacion.png" alt="pool"><p><b>CAPACITACIÓN</b></p><p><?php echo do_shortcode('[popup_anything id="73"]'); ?><img class="flecha" src="<?php echo get_stylesheet_directory_uri(); ?>/img/flecha.png" alt="pool"></p></div>
     </div>
 </div>

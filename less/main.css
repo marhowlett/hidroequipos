@@ -112,7 +112,18 @@ body.page-template-poolstructions .row,
 body.page-template-pooldesign .row,
 body.page-template-poolsales .row,
 body.page-template-organigrama .row,
-body.page-template-staff .row {
+body.page-template-staff .row,
+body.page-template-clientes .row,
+body.page-template-inicio-eng .row,
+body.page-template-servicios-eng .row,
+body.page-template-nosotros-eng .row,
+body.page-template-clientes-eng .row,
+body.page-template-poolfix-eng .row,
+body.page-template-poolsolutions-eng .row,
+body.page-template-poolstructions-eng .row,
+body.page-template-pooldesign-eng .row,
+body.page-template-poolsales-eng .row,
+body.page-template-organigrama-eng .row {
   display: inherit;
 }
 /* Ajustes generales de la plantilla */
@@ -478,30 +489,16 @@ ol {
 #elegir .fotos {
   margin-top: 30px;
 }
-#blog {
-  padding-top: initial;
-  margin-top: -50px;
-}
-#blog .ban {
+#instagram .ban {
   margin-bottom: 50px;
 }
-#blog .meta-post-categories a {
-  color: white;
-}
-#blog .entry-meta-list li {
-  color: #A4A4A4;
-}
-#blog p {
-  color: #919191;
-}
-#blog .blog-post-loop .entry-title a {
-  font-weight: bold;
-  color: #262323 !important;
+#instagram p {
+  text-align: center;
 }
 #contacto {
   padding: inherit;
   background-size: contain;
-  height: 1000px;
+  height: 1100px;
   background: url(../img/banner3.png) no-repeat left bottom;
 }
 @media screen and (max-width: 1570px) and (min-width: 750px) {
@@ -610,6 +607,9 @@ ol {
   background-size: cover;
   padding: 50px 0;
   height: 1000px;
+}
+#nosotros .template-section .ban {
+  margin-top: 10px;
 }
 #nosotros img,
 #nosotros p,
@@ -796,6 +796,9 @@ body.page-template-staff form.post-password-form {
 #staff2 h3 {
   text-align: center;
   margin-top: 20px;
+}
+#staff2 .cliente {
+  padding: 60px;
 }
 #servicioscomienzo {
   padding-top: 750px;
@@ -1210,6 +1213,24 @@ body.page-template-staff form.post-password-form {
   clear: both;
   display: block;
 }
+#banners-footer {
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  z-index: 1000;
+}
+#banners-footer .tp-parallax-wrap {
+  top: inherit !important;
+}
+#banners-footer img {
+  height: 80px !important;
+}
+header {
+  margin-top: 111px;
+}
+.whb-main-header {
+  margin-top: 111px;
+}
 @media (max-width: 768px) {
   .offcanvas-sidebar-mobile .woodmart-sticky-sidebar-opener {
     display: none!important;
@@ -1315,6 +1336,19 @@ body.page-template-staff form.post-password-form {
   }
 }
 @media screen and (max-width: 750px) {
+  .whb-main-header {
+    margin-top: 64px;
+  }
+  header {
+    margin-top: 64px;
+  }
+  #banners-footer {
+    position: fixed;
+    height: auto;
+  }
+  #banners-footer img {
+    height: auto !important;
+  }
   /*LOGO*/
   .woodmart-logo img {
     padding-top: 0;

@@ -125,7 +125,7 @@
 .woodmart-social-icons.text-right.icons-design-default.icons-size-.color-scheme-light.social-share.social-form-square {
     padding-top: 10px;
 }
-body.page-template-inicio, body.page-template-organizamos, body.page-template-nosotros, body.page-template-servicios, body.page-template-poolfix, body.page-template-poolsolutions, body.page-template-poolstructions, body.page-template-pooldesign, body.page-template-poolsales, body.page-template-organigrama, body.page-template-staff{
+body.page-template-inicio, body.page-template-organizamos, body.page-template-nosotros, body.page-template-servicios, body.page-template-poolfix, body.page-template-poolsolutions, body.page-template-poolstructions, body.page-template-pooldesign, body.page-template-poolsales, body.page-template-organigrama, body.page-template-staff, body.page-template-clientes, body.page-template-inicio-eng, body.page-template-servicios-eng, body.page-template-nosotros-eng, body.page-template-clientes-eng, body.page-template-poolfix-eng, body.page-template-poolsolutions-eng, body.page-template-poolstructions-eng, body.page-template-pooldesign-eng, body.page-template-poolsales-eng, body.page-template-organigrama-eng{
 .row {
     
     display: inherit;
@@ -543,32 +543,19 @@ ol {
     }
     
 }
-#blog{
-        padding-top: initial;
-      margin-top: -50px;
+#instagram{
+      
     .ban{
          margin-bottom: 50px;
     }
-    .meta-post-categories a{
-        color: white;
-    }
-    
-    .entry-meta-list li {
-    
-    color: #A4A4A4;
-    }
     p{
-        color: #919191;
-    }
-    .blog-post-loop .entry-title a {
-        font-weight: bold;
-    color: #262323!important;
+        text-align: center;
     }
 }
 #contacto{
     padding: inherit;
         background-size: contain;
-    height: 1000px;
+    height: 1100px;
      background: url(../img/banner3.png) no-repeat left bottom;
     @media screen and (max-width: 1570px) and (min-width: 750px){
           background: url(../img/banner3res.png) no-repeat left center;
@@ -696,7 +683,11 @@ ol {
     background-size: cover;
     padding: 50px 0;
     height: 1000px;
-   
+   .template-section .ban {
+ 
+    margin-top: 10px;
+       
+       }
    img,p, h3{
        
         opacity: inherit!important;
@@ -902,6 +893,9 @@ body.page-template-staff{
     h3{
         text-align: center;
         margin-top: 20px;
+    }
+    .cliente{
+        padding: 60px;
     }
     
 }
@@ -1419,4 +1413,27 @@ body.page-template-staff{
     }
 }
 
+#banners-footer{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    //bottom: 0;
+       z-index: 1000;
+}
+
+#banners-footer .tp-parallax-wrap{
+    top: inherit !important;
+}
+
+#banners-footer img{
+    height: 80px !important;
+}
+
+header{
+           margin-top: 111px;
+    
+}
+.whb-main-header {
+        margin-top: 111px;
+}
 @import "responsive";

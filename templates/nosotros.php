@@ -50,7 +50,7 @@ También  ofrecemos servicios asociados como  el <b class="blanco">mantenimiento
              </div>
              <div class="col">
                  <h2 class="cielo">NUESTRO SUEÑO</h2>
-                 <p class="blanco">Innovar utilizando  siempre la más <b class="blanco">moderna tecnología</b> para nuestras albercas, apostando al logro de procesos cada vez más <b class="blanco">ficientes y amigables con el ambiente </b>y capacitar a los jovenes con esta idea de servicio y calidad para continuar con el negocio en el futuro. 
+                 <p class="blanco">Innovar utilizando  siempre la más <b class="blanco">moderna tecnología</b> para nuestras albercas, apostando al logro de procesos cada vez más <b class="blanco">eficientes y amigables con el ambiente </b>y capacitar a los jovenes con esta idea de servicio y calidad para continuar con el negocio en el futuro. 
 </p>
              </div>
          </div>

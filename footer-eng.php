@@ -25,23 +25,6 @@
 	<?php endif ?>
 	
 	<!-- FOOTER -->
-	<?php
-	if( 'es' == ICL_LANGUAGE_CODE ) {
-    ?>
-	<footer >
-     <section id="esbrillante" class="template-section">
- <div class="contenedor">
- <p class="blanco">Sitio web diseñado por <a href="http://esbrillante.mx/">EsBrillante</a></p>
-</div>
-</section>
-</footer>
-        <?php
- //english
-}
-?>
-<?php
-	if( 'en' == ICL_LANGUAGE_CODE ) {
-    ?>
 	<footer >
      <section id="esbrillante" class="template-section">
  <div class="contenedor">
@@ -49,11 +32,6 @@
 </div>
 </section>
 </footer>
-        <?php
- //english
-}
-?>
-
 <?php endif ?>
 </div> <!-- end wrapper -->
 <div class="woodmart-close-side"></div>
@@ -64,7 +42,7 @@
         window.fbAsyncInit = function() {
           FB.init({
             xfbml            : true,
-            version          : 'v8.0'
+            version          : 'v9.0'
           });
         };
 
@@ -72,7 +50,7 @@
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
         js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));</script>
 
@@ -80,8 +58,8 @@
       <div class="fb-customerchat"
         attribution=setup_tool
         page_id="1611011535823561"
-  logged_in_greeting="¡Hola! ¿Cómo puedo ayudarte?"
-  logged_out_greeting="¡Hola! ¿Cómo puedo ayudarte?">
+  logged_in_greeting="Hello! How can I help you?"
+  logged_out_greeting="Hello! How can I help you?">
       </div>
 </body>
 </html>

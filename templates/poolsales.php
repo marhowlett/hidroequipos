@@ -69,7 +69,7 @@
     <div class="grid">
         <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/CONSTRUCCIÓN2.png" alt="pool"><p><b>RESIDENCIALES</b></p><p><?php echo do_shortcode('[popup_anything id="96"]'); ?><img class="flecha" src="<?php echo get_stylesheet_directory_uri(); ?>/img/flecha.png" alt="pool"></p></div>
         <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/CONSTRUCCIÓN2.png" alt="pool"><p><b>HOTELEROS  O
-GRANDES USARIOS</b></p><p><?php echo do_shortcode('[popup_anything id="97"]'); ?><img class="flecha" src="<?php echo get_stylesheet_directory_uri(); ?>/img/flecha.png" alt="pool"></p></div>
+GRANDES USUARIOS</b></p><p><?php echo do_shortcode('[popup_anything id="97"]'); ?><img class="flecha" src="<?php echo get_stylesheet_directory_uri(); ?>/img/flecha.png" alt="pool"></p></div>
         
     </div>
 </div>

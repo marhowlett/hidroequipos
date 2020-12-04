@@ -20,7 +20,7 @@ necesidades</p></div>
     </div>
     <div class="grid">
         <div class="colespe1"><?php echo do_shortcode( '[slide-anything id="53"]' ); ?></div>
-        <div class="colespe2"><a href="https://www.hidroequipos.com/poolstructions/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/poolstructions.png" alt="pool"></a><p class="especial">Construción de 
+        <div class="colespe2"><a href="https://www.hidroequipos.com/poolstructions/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/poolstructions.png" alt="pool"></a><p class="especial">Construcción de 
 albercas y espacios acuáticos con
 tecnología ecológica</p></div>
     </div>
